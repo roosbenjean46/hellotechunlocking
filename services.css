@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #333;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.services {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.service-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    flex: 0 0 48%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.service-item form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.service-item h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.service-item h2 button {
+    background: none;
+    border: none;
+    color: #ff6600;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.service-item h2 button:hover {
+    color: #e65c00;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer .contact-info {
+    margin-bottom: 10px;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+}
+
+footer .contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .call-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+   

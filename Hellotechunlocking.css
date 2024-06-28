@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+ /* Style pour l'image de fond */
+        body {
+            background-image: url('sct.jpg'); /* Remplacez 'background.jpg' par le chemin de votre image de fond */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Pour que l'image reste fixe pendant le défilement */
+        }
+
+        /* Style pour le logo */
+        .logo img {
+            max-width: 150px; /* Ajustez la taille maximale selon vos besoins */
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Centre le logo horizontalement */
+        }
+header {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #333;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services ul li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer .contact-info {
+    margin-bottom: 10px;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+}
+
+footer .contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .call-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer .call-button:hover {
+    background-color: #e65c00;
+}
+
+@media (max-width: 768px) {
+    header, nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .hero, .services {
+        padding: 20px;
+    }
+}
